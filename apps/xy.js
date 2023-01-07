@@ -1,6 +1,5 @@
 import { segment } from "oicq";//导包部分
 import fetch from "node-fetch";
-import { Config} from '../components/index.js'
 
 const _path = process.cwd();
 

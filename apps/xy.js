@@ -22,7 +22,7 @@ export class example extends plugin{
     }
     async xy (e){
         let msg = [
-            segment.at(e.user.id),
+            segment.at(e.user_id),
             "欢迎使用xy插件",
             segment.image('file:///${_path}/resources/01.png')
         ]

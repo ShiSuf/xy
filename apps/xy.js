@@ -24,7 +24,7 @@ export class example extends plugin{
         let msg = [
             segment.at(e.user_id),
             "欢迎使用xy插件",
-            segment.image('file:///${_path}/resources/01.png')
+            segment.image('file:///${_path}/plugins/xy/resources/01.png'),
         ]
         e.reply(msg);
         return true;
